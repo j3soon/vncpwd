@@ -13,6 +13,10 @@ EXAMPLE
 $ vncpwd .vnc/passwd
 Password: helloworld
 
+NOTE
+If the password is stored in HEX string, use the following command:
+$ echo '<HEX_STRING>' | xxd -r -p > ./vncpasswd
+
 
 Copyright (c) 2018 Jeroen Nijhof <jeroen@jeroennijhof.nl>
 
